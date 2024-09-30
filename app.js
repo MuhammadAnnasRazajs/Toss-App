@@ -2,8 +2,8 @@ var resultDisplay = document.querySelector('#result');
 var coinImage = document.querySelector('#coinImage');
 
 
-coinImage.src = 'https://via.placeholder.com/200'; 
-resultDisplay.innerHTML = 'Click the below buttons'; 
+coinImage.src = 'https://via.placeholder.com/200' ; 
+resultDisplay.innerHTML = 'Click the above buttons'; 
 
 function handleButtonClick(choice) {
     tossCoin(choice);
